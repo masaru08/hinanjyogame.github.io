@@ -1,1 +1,1 @@
-# hinanjyogame.github.io
+# hinanjyogame
