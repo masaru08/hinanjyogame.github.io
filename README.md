@@ -1,0 +1,1 @@
+# hinanjyogame.github.io
