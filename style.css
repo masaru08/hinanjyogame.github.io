@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+  font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-size: 30px;
+  
+}
+th,td {
+    border: solid 1px;          /* 枠線指定 */
+}
+
+table {
+    border-collapse:  collapse; /* セルの線を重ねる */
+}
+
+th {
+    
+    width:  130px;              /* 幅指定 */
+    height: 40px;               /* 高さ指定 */
+}
+#count{
+    text-align: center;
+}
