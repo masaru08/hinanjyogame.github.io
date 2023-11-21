@@ -89,10 +89,14 @@ $(function(){
 </script>
 </head>
 <body>
-    <h1>避難所ゲーム</h1>
-    <button onclick="dice()">サイコロを振る←押せ</button>
-        <p id="result"></p>
-    <h2>ストレスゲージ</h2>
+	<img src="logo.png">
+	<div class="box">
+		<div>
+    		<button onclick="dice()"><p class="btn btn--orange btn--cubic btn--shadow">PUSH!</p></button>
+        	<p id="result"></p>
+		</div>
+		<div>
+	    <h2>ストレスゲージ</h2>
 <table id="count">
 	<tr>
 		<th>playr1</th>
@@ -119,5 +123,9 @@ $(function(){
 		<td><button class="minus">－</button><input type="text" name="input03" value="0" readonly class="number"><button class="plus">＋</button>（ストレス）</td>
 	</tr>
 </table>
+</div>
+	</div>
+	
+
 </body>
 </html>
