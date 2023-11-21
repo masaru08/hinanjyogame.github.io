@@ -2,7 +2,6 @@
 body{
   font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   font-size: 30px;
-  
 }
 th,td {
     border: solid 1px;          /* 枠線指定 */
@@ -14,9 +13,47 @@ table {
 
 th {
     
-    width:  130px;              /* 幅指定 */
+    width:  100px;              /* 幅指定 */
     height: 40px;               /* 高さ指定 */
 }
 #count{
     text-align: center;
+}
+img{
+    width-max:1920px;
+    width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+}
+p{
+    text-align:center;
+    
+}
+h2{
+    text-align:center;
+}
+#result{
+    font-size: 100px;
+    margin-top: 30px;
+}
+.box div{
+    margin: 0 auto;
+}
+p.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+p.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+p.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
